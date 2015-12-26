@@ -1,0 +1,345 @@
+* {
+  margin: 0px ;
+  padding: 0px ;
+}
+
+body {
+    font-family: verdana, arial, "sans serif";
+    background-color: white;
+    width: 70% ;
+    margin: 0px auto ;
+    outline: 2px solid darkgrey ;
+    box-shadow: 8px 8px 2px #85b300 ;
+     /*background-image: url("images/dev.jpg"); */
+   
+}
+html {
+  background-color: orange;
+}
+.container {
+  width: 100% ;
+  background-color:lightgrey ;
+   margin: 0px auto ;
+}
+
+ /* ============================================ styling the name and logo div============================================ */
+  .name  { 
+
+     width: 100% ;
+     margin: 0px auto ;
+     color: #85b300 ;
+     text-align: left;
+    text-shadow:2px 2px 2px black;
+
+
+
+  }
+  .name h1 {
+    padding-top:80px ;
+  }
+  .name h3 {
+    line-height: -20px ;
+    margin-bottom: 40px ;
+  }
+  .name img {
+    float: left;
+    width: 150px;
+    height: 150px ;
+    border-radius: 75px;
+    margin: 40px 10px 40px 20px;
+    
+  }
+  .name img:hover {
+    width: 155px;
+    height: 155px ;
+  }
+  .name:hover {
+    
+    font-size: 105% ;
+  }
+
+  /* === end of name styling == */
+
+  /* ========================================== nav menu styling ========================================================== */
+  .nav {
+     width: 100% ;
+     margin: 20px auto ;
+     clear: both;
+     
+  }
+
+  .nav li {
+     list-style: none;
+     width: 25% ;
+     height: 80px ;
+     background-color: black ;
+     margin-bottom: 30px;
+     text-align: center;
+     line-height: 75px ;
+     float: left;
+
+  }
+
+   p.menu {
+
+    display: none ;
+
+   }
+
+   .nav a {
+     text-decoration: none;
+     display: block;
+     color: gold ;
+   }
+
+   .nav li:hover {background-color: #85b300;
+                  font-size: 110% ;
+                  color: black ; 
+                  
+   }
+   .nav a:hover {
+    color: black ;
+   }
+  
+
+   /* === End of nav menu styling =====*/
+
+    /* ========================================== main div styling ========================================================== */
+
+   .main {
+    width: 60% ;
+   
+    float: left;
+
+   }
+
+   .image1 {
+    width: 50% ;
+   
+    border-radius: 93px ;
+    margin: 10px auto ;
+    position:relative;
+    left: -700px;
+    top: 50px ;
+    opacity: 0.2 ;
+
+   }
+    .image2 {
+    width: 50% ;
+    
+    border-radius: 20px;
+    margin: 20px auto ;
+    margin-bottom: 60px ;
+    position:relative;
+    right: -350px;
+    top: 50px ;
+    display: none;
+    opacity: 0.2 ;
+   }
+
+   .mySkills {
+    width: 95% ;
+    
+    border-radius: 20px ;
+    margin: 10px auto ;
+    padding: 20px ;
+    position:relative;
+    right: -350px;
+    top: 50px ;
+    display: none;
+    opacity: 0.2 ;
+    text-align: center;
+    font-size: 15px ;
+    background-color: black ;
+    color: gold ;
+
+}
+
+.para2 {
+    width: 100% ;
+    margin: 40px auto ;
+    padding: 20px ;
+    position:relative;
+    top: -90px ;
+    opacity: 0.2 ;
+    text-align: justify;
+    font-size: 75% ;
+    color: black ;
+    display: none;
+    background-color: white ;
+    border-radius: 10px ;
+
+}
+   .main li {
+    list-style: none;
+   }
+   .main h1, .main h3 {
+    margin-left: 20px ;
+   }
+   /* === End of main div styling ========= */
+
+    /* ========================================== slide div styling ========================================================== */
+
+   .slide {
+    background-color: white ;
+    width: 100% ;
+    height: 400px;
+    margin: 0px auto ;
+    margin-top: 10px ;
+    
+       overflow: hidden;
+    
+   }
+
+   .slide img{
+    width: 100%;
+    height: 400px ;
+    
+    
+   }
+   .slide ul {
+    width: 400% ;
+   }
+   .slide ul li {
+    list-style: none;
+    float: left;
+   }
+  /* === End of slide div styling =========== */
+  /* ========================================== footer styling ========================================================== */
+
+   .footer {
+      clear: both;
+      width: 100% ;
+      height: 300px ;
+      background-color: #009999 ;
+      margin: 0px auto ;
+     
+   }
+   .footer li {
+
+    list-style: none;
+    float: right;
+    width: 24.6% ;
+    height: 30px ;
+   padding-top: 30px ;
+   margin-bottom: 50px ;
+    font-size: 15px ;
+    text-align: center ;
+    
+   }
+   .footer li:hover {
+    font-size: 18px ;
+   }
+   .footer a {
+    text-decoration: none;
+    color: white ;
+    display: block;
+   }
+   .footer p {
+    font-size: 75%;
+    text-align: center;
+    color: orange ;
+    margin: 20px auto;
+    clear: both;
+   }
+   .social {
+    margin: 20px auto ;
+    width: 80%;
+    height: 80px ;
+   
+
+   }
+   .social li {
+    width: 30% ;
+   }
+
+   .social img {
+   
+   width: 40px;
+   height: 40px ;
+
+   }
+   .social img:hover {
+    width: 43px;
+    height: 43px ;
+   }
+   /* ===== end of footer styling ====== */
+
+   /* ========================================== sidebar styling ========================================================== */
+    .sidebar {
+      
+      width: 35%;
+      margin: 3px auto ;
+      float: right;
+      padding: 0px ;
+
+    }
+    .sidebar h3{
+      color: #12AFBF;
+      padding: 10px 0px;
+
+    }
+
+    .sidebard img {
+      margin-top: 20px ;
+      margin-bottom: 20px ;
+    }
+    sidebar fieldset {
+     margin-top: 50px ;
+    }
+    .sidebar legend {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+   .contactForm{
+      width: 97% ;
+      font-size: 15px ;
+      margin-top: 5px ;
+      margin-bottom: 5px;
+      padding: 5px ;
+      color: white ;
+      background-color: #D1D1D1
+    }
+    .sidebar textarea {
+      height: 200px ;
+    }
+    .submit {
+      float: right;
+      padding: 10px 20px ;
+      font-size: 15px ;
+      background-color: #12AFBF;
+
+    }
+   /* ===== end of sidebar styling ====== */
+
+   /* ========================================== styling about us page ======================================================== */
+   
+   .mainImage {
+   
+    width: 300px;
+    height: 400px;
+    margin: 30px auto ;
+   }
+   .aboutUsHeader {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #85b300 ;
+   }
+
+   .aboutUs img {
+    
+    width: 300px ;
+    height: 300px ;
+    border-radius: 150px ;
+
+   }
+   .aboutUsPara {
+    padding: 20px;
+    text-align: justify;
+   margin-bottom: 40px;
+    color: black ;
+   }
+
+   /* ===== end of aabout us page styling ====== */
